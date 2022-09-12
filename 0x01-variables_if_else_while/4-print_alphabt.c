@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-
-
 /**
  *main - Prints some letters of alphabet
  *
@@ -12,7 +10,6 @@
 int main(void)
 
 {
-
 	char c;
 
 	for (c = 'a'; c <= 'z'; c++)
@@ -21,9 +18,11 @@ int main(void)
 
 	if (c != 'e' && c != 'q')
 
-		{
-												putchar(c);
-												}
+	{
+											putchar(c);
+
+	}
+
 	}
 
 		putchar('\n');
