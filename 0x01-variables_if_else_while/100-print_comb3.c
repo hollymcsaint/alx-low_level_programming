@@ -1,65 +1,53 @@
-nclude <stdio.h>
-
-
+#include <stdio.h>
 
 /**
+ * * main - Prints combination of numbers
  *
- *   * main - Prints combination of numbers
  *
- *     *
  *
- *       * Return: Always (Success)
+ * * Return: Always (Success)
  *
- *         */
+ */
 
 int main(void)
 
 {
 
-		int c, i;
+	int c, i;
+
+	for (c = '0'; c <= '9'; c++)
+
+	{
+
+	for (i = '0'; i <= '9'; i++)
+
+		{
+		
+			if (c < i)
+
+		{
+													putchar(c);
+													putchar(i);
 
 
+			if (c != '8' || (c == '8' && i != '9'))
 
-			for (c = '0'; c <= '9'; c++)
+													{
 
-					{
+				putchar(',');
 
-								for (i = '0'; i <= '9'; i++)
+				putchar(' ');
 
-											{
+													}
 
-															if (c < i)
+		}
 
-																			{
+		}
 
-																								putchar(c);
-
-																												putchar(i);
-
-
-
-																																if (c != '8' || (c == '8' && i != '9'))
-
-																																					{
-
-																																											putchar(',');
-
-																																																putchar(' ');
-
-																																																				}
-
-																																			}
-
-																	}
-
-									}
-
-
+	}
 
 				putchar('\n');
 
-
-
-					return (0);
+				return (0);
 
 }
