@@ -3,39 +3,28 @@
 
 
 /**
+ *main - Prints some letters of alphabet
  *
- *   * main - Prints some letters of alphabet
+ *Return: Always (Success)
  *
- *     *
- *
- *       * Return: Always (Success)
- *
- *         */
+**/
 
 int main(void)
 
 {
 
-		char c;
+	char c;
 
+		for (c = 'a'; c <= 'z'; c++)
 
+	{
+		if (c != 'e' && c != 'q')
 
-			for (c = 'a'; c <= 'z'; c++)
+		{
 
-					{
-
-								if (c != 'e' && c != 'q')
-
-											{
-
-															putchar(c);
-
-																	}
-
-									}
-
-
-
+												putchar(c);
+												}
+							}
 				putchar('\n');
 
 
