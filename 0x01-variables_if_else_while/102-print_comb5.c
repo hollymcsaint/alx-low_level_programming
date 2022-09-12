@@ -1,91 +1,75 @@
-nclude <stdio.h>
-
-
+#include <stdio.h>
 
 /**
+ * * main - Prints 3 combination of numbers
  *
- *   * main - Prints 3 combination of numbers
  *
- *     *
  *
- *       * Return: Always (Success)
+ * * Return: Always (Success)
  *
- *         */
+ */
 
 int main(void)
 
 {
+	int c, i, k, j;
 
-		int c, i, k, j;
+	for (c = 48; c <= 57; c++)
 
-
-
-			for (c = 48; c <= 57; c++)
-
-					{
-
-								for (i = 48; i <= 57; i++)
+	{
+		for (i = 48; i <= 57; i++)
 
 											{
 
-															for (k = 48; k <= 57; k++)
+		for (k = 48; k <= 57; k++)
 
-																			{
+	{
 
-																								for (j = 48; j <= 57; j++)
+		for (j = 48; j <= 57; j++)
 
-																													{
+	{
 
-																																			if (((k + j) > (c + i) &&  k >= c) || c < k)
+		if (((k + j) > (c + i) &&  k >= c) || c < k)
 
-																																									{
+	{
+		putchar(c);
+		
+		putchar(i);
 
-																																																putchar(c);
+		putchar(' ');
 
-																																																						putchar(i);
+		putchar(k);
 
-																																																												putchar(' ');
+		putchar(j);
 
-																																																																		putchar(k);
+	if (c + i + k + j == 227 && c == 57)
 
-																																																																								putchar(j);
+	{
 
+		break;
 
+	}
 
-																																																																													if (c + i + k + j == 227 && c == 57)
+	else
 
-																																																																																			{
+	{
+		putchar(',');
 
-																																																																																									break;
+		putchar(' ');
 
-																																																																																														}
+	}
 
-																																																																																		else
+	}
+	
+	}
 
-																																																																																								{
+	}
 
-																																																																																														putchar(',');
+	}
 
-																																																																																																			putchar(' ');
+	}
 
-																																																																																																								}
-
-																																																																																							}
-
-																																							}
-
-																											}
-
-																	}
-
-									}
-
-
-
-				putchar('\n');
-
-
-
-					return (0);
+		putchar('\n');
+		return (0);
 
 }
