@@ -21,7 +21,7 @@ int main(void)
 			z += i;
 		}
 		i++;
-	
+
 	}
 
 	printf("%d\n", z);
