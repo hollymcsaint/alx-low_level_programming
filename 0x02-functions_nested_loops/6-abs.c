@@ -3,13 +3,13 @@
 /**
  *  * _abs - a function that computes the absolute value of an integer.
  *
- *   * @n: integer input
+ *   * @ab: integer input
  *
- *    * Return: absolute value of an integer.
+ *    * Return: absolute value of an integer ab.
  *
  */
 
-int _abs(int);
+int _abs(int ab)
 
 {
 	return (ab * ((ab > 0) - (ab < 0)));
