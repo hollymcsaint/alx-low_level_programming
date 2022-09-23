@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- *   * cap_string - ...
- *     * @s: ...
+ * cap_string - ...
+ * @s: ...
  *
- *         * Return: char value
+ * Return: char value
  */
 
 char *cap_string(char *s)
