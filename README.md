@@ -3,3 +3,4 @@
 	0x01. C - Variables, if, else, while
  	0x02-functions_nested_loop
 	0x03-debugging
+	Pointers
