@@ -9,14 +9,8 @@
   * or NULL, if c is not found
   */
 
-char *_strchr(char *s, char c)
+char *_strchr(char *s, char c);
 {
-	char *pointer = NULL;
-
-	while (*s != c && *s != NULL)
-		pointer = ++s;
-	return (pointer);
-
 	do {
 		if (*s == c)
 			return (s);
