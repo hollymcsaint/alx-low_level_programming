@@ -3,7 +3,7 @@
 /**
  *_puts_recursion - A function that print a string follow by a new name.
  *
- *@s - String to be printed
+ *@s: String to be printed
  *
  */
 
