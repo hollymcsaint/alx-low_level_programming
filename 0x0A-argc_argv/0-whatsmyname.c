@@ -3,8 +3,8 @@
 
 /**
  *main - Write a program that print its name with a new line following
- *@argc - int
- *@argv - list
+ *@argc: int
+ *@argv: list
  * Return: 0
 */
 
