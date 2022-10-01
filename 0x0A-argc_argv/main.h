@@ -2,6 +2,6 @@
 #define main_h
 
 char _putchar (char c);
-int main (int argc, const char *argv[]);
+int check_num(char *str);
 
 #endif
