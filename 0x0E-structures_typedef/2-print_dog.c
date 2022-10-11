@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
-* print_dog - function that prints a dog
-*
-* @d: ponter to dog to print
-*/
+ * print_dog - function that prints a dog
+ *
+ * @d: ponter to dog to print
+ */
 
 void print_dog(struct dog *d)
 {
