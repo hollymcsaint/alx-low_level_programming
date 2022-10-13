@@ -15,10 +15,8 @@ int int_index(int *array, int size, int (*cmp)(int));
 typedef enum bool
 {
 	TRUE = 1,
-
 	FALSE = 0
 }
-
 bool;
 
 #endif
